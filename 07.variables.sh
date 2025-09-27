@@ -1,13 +1,13 @@
 #!/bin/bash
 
-#DATE=$(date +%s)
+#DATE=$(date)
 
 START_TIME=$(date +%s)
 
 Sleep 10
 
 END_TIME=$(date +%s)
+
 TOTAL_TIME=$(($END_TIME-$START_TIME))
 
-echo "Taotal time exicute the scripts time is :$TOTAL_TIME seconds"
-echo "course name is: $COURSE"
+echo "script executed in: $TOTAL_TIME Seconds"
