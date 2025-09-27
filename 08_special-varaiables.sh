@@ -2,4 +2,4 @@
 
 echo "All variables passed to the script: $*"
 echo "All variables passed to the script: $@"
-echo "anni rakalu induloki vachchugaka: $@
+echo "Total variable passed to: $@
