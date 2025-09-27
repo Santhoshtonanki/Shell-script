@@ -8,3 +8,8 @@ NAME=EXPENCE
 
 SUM=$(($NUMBER1+$NUMBER2+$NAME))
 echo "Sum is: ${SUM}"
+
+
+FRIENDS=("santhosh" "tony" "steve" "bruce" "gangayya")
+
+echo "My Friends list is:$($FRIENDS{@})"
