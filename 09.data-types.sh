@@ -12,4 +12,4 @@ echo "Sum is: ${SUM}"
 
 FRIENDS=("santhosh" "tony" "steve" "bruce" "gangayya")
 
-echo "My Friends list is: ${$FRIENDS[@]}"
+echo "All Friends list is: ${$FRIENDS[@]}"
