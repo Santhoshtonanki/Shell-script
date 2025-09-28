@@ -9,7 +9,7 @@ if [ $NUMBER -lt 100 ]; then
 elif [ $NUMBER -gt 100 ]; then
     echo "Given number $NUMBER is greater than 100"
 else
-    echo "Gien number $NUMBER is not equal to 100"
+    echo "Gien number $NUMBER is not equal or equal to 100"
 fi
 
 
