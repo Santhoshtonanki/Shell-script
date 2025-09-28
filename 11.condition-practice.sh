@@ -10,5 +10,5 @@ if  [ $(($NUMBER % 1) -eq 0)]; then
 elif [ $(($NUMBER % $NUMBER) -eq 0)]; then
     echo "Given number is equal to 0, So the number is prime number"
 else
-    echo "Given number is not equal to 0, So the number is not prime number"
+    echo "Given number is not equal to 0, So the number is non-prime number"
 fi
