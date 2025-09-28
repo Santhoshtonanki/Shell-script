@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-NUMBER=$!
+NUMBER=$1
 
 
 if [ $NUMBER -lt 100 ]; then
