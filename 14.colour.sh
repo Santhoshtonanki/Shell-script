@@ -8,8 +8,8 @@ C="\e[36m"
 W="\e[37m"
 N="\e[0m"
 
-echo ${R}what are you doing?$N ${G}raju${N}
-echo ${B}nothing?${N} ${G}em chestunnavu nuvvu ramu?${N}
-echo ${Y}edo cheptunnavu${N} ${G}ramu${N}
-echo ${G}ok$N
-echo ${R}red color${N}
+echo ${R} what are you doing? ${N} ${G} raju ${N}
+echo ${B} nothing? ${N} ${G} em chestunnavu nuvvu ramu? ${N}
+echo ${Y} edo cheptunnavu ${N} ${G} ramu ${N}
+echo ${G} ok ${N}
+echo ${R} red color ${N}
