@@ -2,13 +2,10 @@
 
 NUBMER=$1
 
-if [ $NUMBE -lt 10 ]then;
-    echo "number $NUMBER is less than 10"
-
-elif 
-    echo "number $NUMBER is greater than 10"
+if [ $NUMBER -lt 10 ]; then
+    echo "Givn number $NUMBER is less than 10"
 
 else 
-    echo "number $NUMBER is equal to 10"
+    echo "Gien number $NUMBER is greater than or equal to 10"
 
 fi
