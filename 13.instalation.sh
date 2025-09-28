@@ -23,5 +23,9 @@ dnf install nginx -y
 VALIDATE $? "nginx"
     
 dnf install mongodb-mongosh -y
-VALIDATE $? "mongosh"
+echo "Installing MongoDB Shell..."
+wget https://downloads.mongodb.com/compass/mongosh-2.2.15-linux-x64-openssl3.tgz
+tar -xvf mongosh-2.2.15-linux-x64-openssl3.tgz
+cp mongosh-2.2.15-linux-x64-openssl3/bin/mongosh /usr/local/bin/
+VALIDATE $? "MongoDB Shell"
 
