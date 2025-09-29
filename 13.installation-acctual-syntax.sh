@@ -24,12 +24,13 @@ else
     echo "nginx installation is successful"
     
     
-    
-dnf install mongodb-mongosh -y
+# mongobd-mongosh is not istalling, there is an error inside the package
+# so we are installing "python3" package.
+dnf install python3 -y
 
 if [ $? -ne 0 ]; then
-    echo "ERROR:: mongodb installation is failed"
+    echo "ERROR:: python3 installation is failed"
     exit 1
 else
-    echo "mongodb installation is successful"
+    echo "python3 installation is successful"
 fi
